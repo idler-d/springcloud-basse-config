@@ -9,7 +9,7 @@ management:
   security:
     enabled: false
 myapp:
-  test: 4456
+  test: jfgdio
 
 
 
