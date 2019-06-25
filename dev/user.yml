@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: user-service
   datasource:
     url: jdbc:mysql://192.168.225.5:3306/demo
     username: root
@@ -11,4 +13,3 @@ eureka:
 server:
   port: 8030
 
-test: test1
