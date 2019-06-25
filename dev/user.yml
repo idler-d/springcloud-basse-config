@@ -1,6 +1,10 @@
 spring:
   application:
     name: user-service
+  cloud:
+    bus:
+      trace:
+        enabled: true
 server:
   port: 8030
 
@@ -8,11 +12,6 @@ server:
 management:
   security:
     enabled: false
-## 开启消息跟踪
-spring:
-  cloud:
-    bus:
-      trace:
-        enabled: true
+
 
 
