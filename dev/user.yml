@@ -2,5 +2,6 @@ spring:
   application:
     name: user-service
 server:
-  port: 8041
+  port: 8030
+  port: 8030
 
