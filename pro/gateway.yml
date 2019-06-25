@@ -7,10 +7,10 @@ hystrix:
       execution:
         isolution:
           thread:
-            timeoutInMillisecond: 5000
+            timeoutInMillisecond: 10000
 ribbon:
-  ConnectTimeout: 1000
-  ReadTimeout: 3500
+  ConnectTimeout: 4000
+  ReadTimeout: 2000
   MaxAutoRetries: 0
   MaxAutoRetriesNextServer: 0
 zuul:
