@@ -2,5 +2,17 @@ spring:
   application:
     name: user-service
 server:
-  port: 8040
+  port: 8030
+
+## 刷新时，关闭安全验证
+management:
+  security:
+    enabled: false
+## 开启消息跟踪
+spring:
+  cloud:
+    bus:
+      trace:
+        enabled: true
+
 
