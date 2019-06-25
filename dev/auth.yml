@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: auth-service
+demo:
+  cookieName: DEMO_TOKEN
+  cookieMaxAge: 30
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+server:
+  port: 8031
