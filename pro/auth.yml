@@ -4,5 +4,5 @@ spring:
 demo:
   cookieName: DEMO_TOKEN
   cookieMaxAge: 30
-server:
-  port: 8031
+#server:
+#  port: 8031
