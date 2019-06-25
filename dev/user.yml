@@ -9,7 +9,7 @@ management:
   security:
     enabled: false
 myapp:
-  test: fefe
+  test: hhuhu
 
 
 
