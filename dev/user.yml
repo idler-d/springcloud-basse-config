@@ -1,17 +1,10 @@
 spring:
   application:
     name: user-service
-  cloud:
-    bus:
-      trace:
-        enabled: true
-server:
-  port: 8040
 
-## 刷新时，关闭安全验证
-management:
-  security:
-    enabled: false
+server:
+  port: 8030
+
 
 
 
