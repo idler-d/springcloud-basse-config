@@ -6,7 +6,7 @@ spring:
       trace:
         enabled: true
 server:
-  port: 8030
+  port: 8040
 
 ## 刷新时，关闭安全验证
 management:
