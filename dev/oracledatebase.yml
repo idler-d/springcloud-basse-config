@@ -3,4 +3,4 @@ spring:
     url: jdbc:oracle:thin://ot@192.168.225.5:3306/xe
 #    username: ot
     password: Orcl1234
-    driver-class-name: oracle.jdbc.driver.OracleDriver
+    driver-class-name: oracle.jdbc.OracleDriver
