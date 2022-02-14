@@ -21,6 +21,8 @@ zuul:
       serviceId: user-service
       strip-prefix: false
     auth-service:
+      sensitive-headers:
+      custom-sensitive-headers: true
       path: /auth/**
       serviceId: auth-service
       strip-prefix: false
