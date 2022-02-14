@@ -15,14 +15,13 @@ ribbon:
   MaxAutoRetriesNextServer: 0
 zuul:
   prefix: /api
+  sensitive-headers:
   routes:
     user-service:
       path: /users/**
       serviceId: user-service
       strip-prefix: false
     auth-service:
-      sensitive-headers:
-      custom-sensitive-headers: true
       path: /auth/**
       serviceId: auth-service
       strip-prefix: false
